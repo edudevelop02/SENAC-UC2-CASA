@@ -7,7 +7,7 @@ lista_codigos = []
 
 janela = tk.Tk()
 
-#Criação da função
+#Criação da função 
 
 def inserir_codigo():
     descricao = entry_descricao.get()
