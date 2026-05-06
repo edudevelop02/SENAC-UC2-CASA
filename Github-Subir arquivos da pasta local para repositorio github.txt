@@ -1,0 +1,43 @@
+
+Subir arquivos da pasta local para repositorio github,
+Nome do repositorio:
+
+edudevelop02/SENAC-02
+
+1. Preparação (No Terminal)
+Abra o Prompt de Comando (CMD) ou o PowerShell e navegue até a sua pasta local:
+
+no CMD local va para a pasta com os arquivos
+cd C:\@PROGRAMACAO_01\SENAC-UC2
+
+
+*********
+2. Inicializar e Vincular o Repositório
+Execute os comandos abaixo um por um:
+
+1.Iniciar o Git na pasta:
+bash
+git init
+
+2.Adicionar todos os arquivos para o "pacote":
+bash
+git add .
+
+3.Criar o primeiro registro (commit):
+bash
+git commit -m "Primeiro upload dos arquivos do SENAC"
+
+Renomear a branch principal para 'main' (padrão atual do GitHub):
+bash
+git branch -M main
+
+Conectar com o seu repositório remoto:
+bash
+git remote add origin https://github.com
+
+3. Enviar os Arquivos
+Agora, envie tudo para o GitHub:
+bash
+git push -u origin main
+
+
