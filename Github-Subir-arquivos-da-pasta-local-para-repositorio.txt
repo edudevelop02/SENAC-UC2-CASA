@@ -1,8 +1,8 @@
-
+em 06-05-2026
 Subir arquivos da pasta local para repositorio github,
-Nome do repositorio:
+Nome do repositorio: https://github.com/edudevelop02/SENAC-UC2.git
 
-edudevelop02/SENAC-02
+edudevelop02/SENAC-02  
 
 1. Preparação (No Terminal)
 Abra o Prompt de Comando (CMD) ou o PowerShell e navegue até a sua pasta local:
