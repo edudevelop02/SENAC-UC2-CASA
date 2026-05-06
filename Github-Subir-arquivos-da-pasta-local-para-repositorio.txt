@@ -25,7 +25,7 @@ git add .
 
 3.Criar o primeiro registro (commit):
 bash
-git commit -m "Primeiro upload dos arquivos do SENAC"
+git commit -m "descricao do commit :upload dos arquivos do SENAC"
 
 Renomear a branch principal para 'main' (padrão atual do GitHub):
 bash
