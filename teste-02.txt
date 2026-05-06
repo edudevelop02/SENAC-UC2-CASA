@@ -1,0 +1,11 @@
+EXERCICIO 01:
+Análise de roubo de veículos por CISP
+• Utilizando a variável roubo_veiculos:
+• 1. Crie o groupby por CISP com soma e reset_index()
+• 2. Ordene do maior para o menor
+• 3. Crie o array numpy a partir da coluna roubo_veic
+• 4. Calcule e exiba a média e a mediana
+• 5. Calcule Q1, Q2 e Q3 em variáveis separadas
+• 6. Filtre as CISPs que estão acima de Q3
+• Quais CISPs estão nos 25% com mais roubos de veículo?
+• Quais CISPs estão nos 25% com menos roubos de veículo?
