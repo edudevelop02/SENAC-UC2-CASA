@@ -1,4 +1,4 @@
-em 06-05-2026
+em 06-05-2026 BB
 Subir arquivos da pasta local para repositorio github,
 Nome do repositorio: https://github.com/edudevelop02/SENAC-UC2.git
 
@@ -27,6 +27,15 @@ git add .
 bash
 git commit -m "descricao do commit :upload dos arquivos do SENAC"
 
+enviar atualizacoes selecionadas
+3. Enviar os Arquivos
+Agora, envie tudo para o GitHub:
+bash
+git push -u origin main
+
+git status
+
+****************************************
 Renomear a branch principal para 'main' (padrão atual do GitHub):
 bash
 git branch -M main
@@ -34,10 +43,7 @@ git branch -M main
 Conectar com o seu repositório remoto:
 bash
 git remote add origin https://github.com
+*********************************************
 
-3. Enviar os Arquivos
-Agora, envie tudo para o GitHub:
-bash
-git push -u origin main
 
 
