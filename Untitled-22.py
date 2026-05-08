@@ -6,7 +6,8 @@ listar dados lendo uma base de dados externa
 import pandas as pd
 import numpy  as np
 
-dados = 'https://www.ispdados.rj.gov.br/Arquivos/BaseDPEvolucaoMensalCisp.csv'
+#dados = 'https://www.ispdados.rj.gov.br/Arquivos/BaseDPEvolucaoMensalCisp.csv'
+dados = 'BaseDPEvolucaoMensalCisp.csv'
 
 df = pd.read_csv(dados, sep=';', encoding='latin1')
 print(df)
