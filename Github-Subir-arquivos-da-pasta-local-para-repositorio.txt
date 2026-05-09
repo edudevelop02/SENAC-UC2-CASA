@@ -1,4 +1,4 @@
-em 06-05-2026 ABCD
+em 09-05-2026 ABCDEFG
 Subir arquivos da pasta local para repositorio github,
 Nome do repositorio: https://github.com/edudevelop02/SENAC-UC2.git
 
