@@ -45,5 +45,87 @@ bash
 git remote add origin https://github.com
 *********************************************
 
+Criando uma nova Brench para trabalhos na sua maquina local
+============================================================
+Passo 1: Ver em qual branch você está atualmente
+bash
+git branch
+
+git checkout main
+
+O que faz: Move você de volta para a linha do tempo principal do projeto 
+(a branch main ou master).
+Por que é necessário: Você não deve criar uma nova ramificação estando dentro de 
+outra branch de testes ou incompleta. O ponto de partida seguro sempre deve ser 
+a base principal do projeto.
+
+Passo 2: Criar a branch nova (sem entrar nela)
+bash
+git branch nome-da-sua-branch
+git pull
+git checkout -b nome-da-sua-branch  (nova)
+
+
+Passo 3: Mudar para a branch criada
+bash
+git checkout nome-da-sua-branch
+ou
+git checkout -b nome-da-sua-branch  (nova)
+
+Dica: Em versões mais novas do Git, você também pode usar o comando git switch nome-da-sua-branch.
+Boa Prática Antes de Criar uma Branch
+Antes de criar uma nova ramificação, certifique-se de voltar para a branch principal 
+(geralmente chamada de main ou master) e garantir que seu código está atualizado. 
+Isso evita que você puxe códigos antigos ou incompletos para o seu 
+novo ambiente de trabalho:
+
+4. Enviar a branch para o GitHub
+Para que essa nova branch apareça lá no site do GitHub, 
+você deve fazer o primeiro envio usando:
+bash
+git push -u origin nome-da-sua-branch
+
+*** Duas etapas essenciais para concluir o seu fluxo de trabalho: primeiro, 
+vamos garantir que a branch realmente chegou ao site e, em seguida, 
+abrir o Pull Request (PR) da sua UC2 para que o seu código 
+possa ser avaliado ou integrado.
+
+Parte 1: Como verificar se a branch chegou ao GitHub 
+Existem duas maneiras rápidas de confirmar 
+se o comando enviado anteriormente funcionou:
+Pela página inicial do seu repositório:
+Acesse o link do seu projeto: github.com.
+Logo acima da lista de arquivos, você verá um botão cinza que mostra a branch atual 
+(geralmente escrito main).
+Clique nele. Um menu suspenso será aberto listando todas as ramificações. 
+A sua branch trabalhos-uc2 deve aparecer listada ali.
+Pelo aviso temporário do GitHub:
+-Sempre que você envia uma branch nova, o GitHub exibe uma barra amarela no topo da 
+página inicial do repositório com uma mensagem parecida 
+com: "trabalhos-uc2 had recent pushes less than a minute ago". 
+Parte 2: Como abrir o Pull Request para a UC2
+O Pull Request é a ferramenta que você usa para avisar ao seu professor, 
+avaliador ou equipe que o seu trabalho está pronto para ser revisado e juntado ao projeto principal. 
+
+Acesse a página de criação:
+Clique no link que o próprio terminal gerou para você: Criar Pull Request no GitHub
+
+(Se preferir ir manualmente, clique na aba "Pull Requests" dentro do seu repositório 
+no GitHub e depois no botão verde "New pull request").
+Confirme a direção da integração:
+No topo da página, você verá duas setas indicando a direção do código. 
+Certifique-se de que está configurado assim:
+base: main ← compare: trabalhos-uc2
+Isso significa: "Quero enviar as alterações da minha branch de trabalho para dentro 
+da branch principal".
+Preencha as informações do trabalho:
+Title (Título): Coloque um nome claro, por exemplo: Entrega das atividades da UC2 - [Seu Nome].
+Description (Descrição): Escreva um breve resumo do que você desenvolveu nessa etapa do curso do SENAC :
+(ex: "Criação da estrutura base", "Resolução dos exercícios da unidade 2").
+Finalize o envio:
+Clique no botão verde "Create pull request" no canto inferior direito.
+Pronto! O seu Pull Request estará oficialmente aberto. Se o projeto for avaliado pelo seu professor, bastará copiar o link da 
+página do PR gerado e enviar para ele.
+
 
 
