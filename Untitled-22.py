@@ -1,6 +1,7 @@
 # %%
 '''
 listar dados lendo uma base de dados externa
+em 15-05-2026
 
 '''
 import pandas as pd
