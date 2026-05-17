@@ -1,0 +1,28 @@
+observacoes:
+trevoblog
+
+curriculo ideal
+n8n 
+powerautomate plataforma lowcode
+automacao de tarefas: pyautogui   selenium
+
+linkedin procurar vagas em publicacoes
+
+
+https://kahoot.it/    jogo
+metodologia agil scrum kamban 
+
+
+
+Linkedin Titulo: analista de dados | python | Power BI | SQL | Pandas
+
+
+coursera:  Gerenciamento de projetos do google
+
+# Define o formato de exibição padrão do Pandas para o padrão brasileiro
+# troca , por . e . por , para campos numericos
+pd.options.display.float_format = lambda x: f"{x:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+
+
